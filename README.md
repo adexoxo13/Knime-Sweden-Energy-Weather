@@ -46,7 +46,15 @@ This project investigates how weather conditions affect energy production in Swe
    For interactive visualizations:  
    `File > Install KNIME Extensions > Search "Plotly"`
 
-![Install Extensions](images/preferences_install_software.png)
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+      <div style="width: 70%;">
+         <h4 style="text-align: center;">Download KNIME Analytics Platform</h4>
+         <a href="https://www.knime.com/downloads?utm_term=knime%20download&utm_campaign=Brand-Knime-Theme-EMEA&utm_source=google&utm_medium=cpc&hsa_acc=1079364086&hsa_cam=21031129327&hsa_grp=162669096207&hsa_ad=691087344193&hsa_src=g&hsa_tgt=kwd-298466858281&hsa_kw=knime%20download&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1" >
+         <img src="image/preferences_install_software.png" 
+            alt="Knime download link" 
+            style="width: 100%; min-width: 400px;"></a>
+      </div>
+   </div>
 
 
 ## Execute 
@@ -60,15 +68,95 @@ This project investigates how weather conditions affect energy production in Swe
 4. Execute all nodes
 
 ## Key Findings
+### Solar Energy Production vs. Air Temperature (2020–2021)
+ [summarizing the most interesting findings]
+- "Temperature showed the strongest correlation with solar energy production"
+ 
+   <div style="display: flex; justify-content: space-between; gap: 30px; margin-bottom: 30px;">
+      <div style="width: 70%;">
+         <h4 style="text-align: center;">Line Plot</h4>
+         <img src="image/Temeprature_and_solar_energy_line_plot.png" 
+            alt="Temperature and Solar Energy Line plot" 
+            style="width: 100%; min-width: 350px;">
+      </div>
+      <div style="width: 70%;">
+         <h4 style="text-align: center;">Histogram Plot</h4>
+         <img src="image/Temeprature_and_solar_energy_histogram.png" 
+            alt="Temperature and Solar Energy Histogram" 
+            style="width: 100%; min-width: 350px;">
+      </div>
+   </div>
 
-[Write 2-3 bullet points summarizing your most interesting findings]
-- Example: "Temperature showed the strongest correlation with solar energy production"
-- Example: "Three distinct seasonal patterns emerged from cluster analysis"
+   <div style="display: flex; justify-content: center; margin-top: 20px;">
+      <div style="width: 70%;">
+         <h4 style="text-align: center;">Box Plot</h4>
+         <img src="image/Temeprature_and_solar_energy_box_plot.png" 
+            alt="Temperature and Solar Energy Box-plot" 
+            style="width: 100%; min-width: 400px;">
+      </div>
+   </div>
 
-## Visualizations
+   This line graph analyzes the monthly relationship between solar energy production and air temperature across 2020 and 2021.  
 
-![Example Visualization](images/plot1.png)
-*Caption explaining what this visualization shows*
+   #### Winter (Dec–Feb)  
+   - **General trend**: Lower solar energy production due to colder temperatures.  
+   - **Anomaly (Jan–Feb)**:  
+   - Solar energy production **increased** while temperatures **decreased** in both years.  
+   - Possible explanations:  
+   - Weather station maintenance periods.  
+   - Sensor malfunctions during these months.  
+
+   #### Spring & Summer (Mar–Aug)  
+   - **Direct correlation**: Rising temperatures coincided with higher solar energy production.  
+   - **July 2020 exception**: Brief dip in both metrics (likely weather-related).  
+
+   #### Autumn (Sep–Oct)  
+   - Gradual **decline** in temperature and solar energy production.  
+
+   #### Conclusion  
+   "Solar energy production strongly correlates with air temperature **except in January and February**, where inverse trends suggest data reliability issues."  
+
+## Cluster Analysis Results
+
+Three distinct seasonal patterns emerged from cluster analysis. The data points are clustered into three clusters, and the distance between the clusters was considered for deciding the number of clusters.
+
+### Temperature plot
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 48%;">
+    <h4>Hierarchical Cluster</h4>
+    <img src="image/Temeprature_data_point_hierarchical_clustering.png" alt="Temperature Hierarchical Clustering" style="width: 100%;">
+  </div>
+  <div style="width: 48%;">
+    <h4>Scatter Plot</h4>
+    <img src="image/Temeprature_data_point_scatter_plot_clusters.png" alt="Temperature Scatter Plot" style="width: 100%;">
+  </div>
+</div>
+
+### Wind-Speed plot
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 48%;">
+    <h4>Hierarchical Cluster</h4>
+    <img src="image/Wind_speed_data_point_hierarchical_clustering.png" alt="Wind Speed Hierarchical Clustering" style="width: 100%;">
+  </div>
+  <div style="width: 48%;">
+    <h4>Scatter Plot</h4>
+    <img src="image/Wind_speed_data_point_scatter_plot_clusters.png" alt="Wind Speed Scatter Plot" style="width: 100%;">
+  </div>
+</div>
+
+### Cloud Cluster Plot
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 48%;">
+    <h4>Hierarchical Cluster</h4>
+    <img src="image/Cloud_data_point_hierarchical_clustering.png" alt="Cloud Cover Hierarchical Clustering" style="width: 100%;">
+  </div>
+  <div style="width: 48%;">
+    <h4>Scatter Plot</h4>
+    <img src="image/Cloud_data_point_scaterplot_with_clusters.png" alt="Cloud Cover Scatter Plot" style="width: 100%;">
+  </div>
+</div>
+
+
 
 ## Acknowledgements
 
