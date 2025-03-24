@@ -16,10 +16,10 @@ This project investigates how weather conditions affect energy production in Swe
 ## Workflow Components
 
 ### 1. Data Collection
-- **SCB Energy Data**: Collected via SCB's API (modified from provided example)
+- **SCB Energy Data**: Collected via SCB's API 
 - **SMHI Weather Data**: Collected from at least 4 stations with 3 variables:
-  - Selected variables: [List your chosen variables, e.g., temperature, precipitation, wind speed]
-  - Selected stations: [List your stations with motivations]
+  - Selected variables: [e.g., temperature, precipitation, wind speed]
+  - Selected stations: [List of stations]
 
 ### 2. Data Processing
 - Data cleaning and wrangling
@@ -31,7 +31,25 @@ This project investigates how weather conditions affect energy production in Swe
 - Hierarchical clustering to identify monthly patterns
 - Cluster interpretation describing typical months in each group
 
-## How to Use
+## 🔧 Setup
+
+### Required KNIME Extensions
+1. **KNIME REST Client**  
+   For API connections to SCB/SMHI:  
+   `File > Install KNIME Extensions > Search "REST Client"`
+
+2. **KNIME Python Integration**  
+   Required if using Python nodes:  
+   `File > Install KNIME Extensions > Search "Python"`
+
+3. **KNIME Plotly**  
+   For interactive visualizations:  
+   `File > Install KNIME Extensions > Search "Plotly"`
+
+![Install Extensions](https://docs.knime.com/latest/_images/preferences_install_software.png)
+
+
+## Execute 
 
 1. Open `workflows/Energy_Weather_Analysis.knwf` in KNIME
 2. Ensure you have these KNIME extensions installed:
@@ -39,6 +57,7 @@ This project investigates how weather conditions affect energy production in Swe
    - KNIME JavaScript nodes
    - KNIME Plotly nodes (for visualizations)
 3. The workflow should run without additional configuration
+4. Execute all nodes
 
 ## Key Findings
 
