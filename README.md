@@ -128,7 +128,7 @@ This project investigates how weather conditions affect energy production in Swe
 
 Three distinct seasonal patterns emerged from cluster analysis. The data points are clustered into three clusters, and the distance between the clusters was considered for deciding the number of clusters.
 
-### Temperature plot
+### Temperature 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
     <h4>Hierarchical Cluster</h4>
@@ -140,7 +140,7 @@ Three distinct seasonal patterns emerged from cluster analysis. The data points 
   </div>
 </div>
 
-### Wind-Speed plot
+### Wind-Speed 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
     <h4>Hierarchical Cluster</h4>
@@ -152,7 +152,7 @@ Three distinct seasonal patterns emerged from cluster analysis. The data points 
   </div>
 </div>
 
-### Cloud Cluster Plot
+### Cloud Cluster 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
     <h4>Hierarchical Cluster</h4>
