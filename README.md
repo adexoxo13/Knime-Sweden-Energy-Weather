@@ -14,6 +14,14 @@ This project investigates how weather conditions affect energy production in Swe
 5. Performing cluster analysis
 
 ## Workflow Components
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+      <div style="width: 70%;">
+         <h4 style="text-align: center;">Workflow Components</h4>
+         <img src="image/knime-work-flow.png" 
+            alt="A Workflow Diagram for Energy Production and Weather Analysis" 
+            style="width: 100%; min-width: 400px;">
+      </div>
+   </div>
 
 ### 1. Data Collection
 - **SCB Energy Data**: Collected via SCB's API 
