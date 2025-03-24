@@ -46,7 +46,7 @@ This project investigates how weather conditions affect energy production in Swe
    For interactive visualizations:  
    `File > Install KNIME Extensions > Search "Plotly"`
 
-![Install Extensions](https://docs.knime.com/latest/_images/preferences_install_software.png)
+![Install Extensions](images/preferences_install_software.png)
 
 
 ## Execute 
