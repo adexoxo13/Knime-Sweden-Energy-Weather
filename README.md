@@ -148,7 +148,7 @@ Three distinct seasonal patterns emerged from cluster analysis. The data points 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
     <h4>Hierarchical Cluster</h4>
-    <img src="image/Cloud_data_point_hierarchical_clustering.png" alt="Cloud Cover Hierarchical Clustering" style="width: 100%;">
+    <img src="image/cloud_data_point_hierarchical_clustering.png" alt="Cloud Cover Hierarchical Clustering" style="width: 100%;">
   </div>
   <div style="width: 48%;">
     <h4>Scatter Plot</h4>
