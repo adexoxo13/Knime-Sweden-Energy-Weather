@@ -164,7 +164,13 @@ Three distinct seasonal patterns emerged from cluster analysis. The data points 
   </div>
 </div>
 
+## 📬 Contact
 
+Feel free to reach out or connect with me:
+
+- 📧 **Email:** [adenabrehama@gmail.com](mailto:adenabrehama@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/aden](https://www.linkedin.com/in/aden-alemayehu-1629aa255)
+- 🎨 **CodePen:** [codepen.io/adexoxo](https://codepen.io/adexoxo)
 
 ## Acknowledgements
 
